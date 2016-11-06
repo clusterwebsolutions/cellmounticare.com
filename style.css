@@ -215,7 +215,7 @@ a.btn-custom-reverse.btn-lg {
 \*------------------------------------*/
 #menu {
     position: absolute;
-    top: 68px;
+
     left: 0;
     width: 100%;
     z-index: 5;
@@ -288,7 +288,7 @@ a.btn-custom-reverse.btn-lg {
 #secondaryMenu a.navbar-brand {
     display: block;
     padding: 15px 0;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     margin-left: 0;
     color: #fff;
     font-size: 24px;
@@ -376,9 +376,9 @@ a.btn-custom-reverse.btn-lg {
     display: table-cell;
     vertical-align: middle;
 }
-.banner-slider {
-    padding: 190px 0 0;
-}
+/*.banner-slider {*/
+    /*padding: 190px 0 0;*/
+/*}*/
 .banner-item {
     position: relative;
     color: #fff;
@@ -2609,3 +2609,11 @@ a.comment-reply:hover {
 .hc-margin {
     margin: 0 auto;
 }
+
+/*Custom CSS*/
+
+#secondaryNavbar .navbar-nav > li > a {
+    padding-bottom: 27px;
+    padding-top: 27px;
+}
+
